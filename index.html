@@ -1,489 +1,358 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Keep Team">
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
+    <title>
+        
+        Keep Theme
+    </title>
+    
 <link rel="stylesheet" href="/css/style.css">
 
-  
+    <link rel="shortcut icon" href="/images/logo.svg">
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
 
-  
-  
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en"}
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.svg","favicon":"/images/logo.svg","avatar":"/images/avatar.svg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"header_transparent":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving.","font_color":null,"hitokoto":false},"scroll":{"progress_bar":false,"percent":false}},"local_search":{"enable":false,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"left","copyright_info":false},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original article title","author":"Original article author","link":"Original article link"}
+  </script>
 <meta name="generator" content="Hexo 6.3.0"></head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content is-home">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Keep Theme
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class="active"
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="active"
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
     </div>
-  </div>
+
+    <div class="window-mask"></div>
+
 </header>
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-python类的基本语法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" class="article-date">
-  <time class="dt-published" datetime="2023-07-25T13:28:25.000Z" itemprop="datePublished">2023-07-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="home-content-container fade-in-down-animation">
+    <ul class="home-article-list">
         
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">python类的基本语法</a>
-    </h1>
-  
+            <li class="home-article-item">
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id="第1关：类的声明与定义"><a href="#第1关：类的声明与定义" class="headerlink" title="第1关：类的声明与定义"></a>第1关：类的声明与定义</h3><h4 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h4><p>Python 是一门面向对象的语言。面向对象编程 - Object Oriented Programming（简称 OOP）是一种编程思想，在面向对象编程中，把对象作为程序的基本单元，把程序视为一系列对象的集合。一个对象包括了数据和操作数据的方法，消息传递成为联系对象的方法。 </p>
-<p>对象可按其性质划分为类，对象也就是类的实例。类是用来描述具有相同的属性和方法的对象的集合，即抽象的集合。例如书这个类，它代表着所有书，它具有书所共有的属性：书名、版本、作者和出版日期，它也具有所有书都共有的方法：销售。本关的任务是让学习者掌握类的定义与声明。</p>
-<h4 id="相关知识"><a href="#相关知识" class="headerlink" title="相关知识"></a>相关知识</h4><h5 id="类的声明"><a href="#类的声明" class="headerlink" title="类的声明"></a>类的声明</h5><p>在 Python 中，类的声明是通过<code>class</code>关键字表示的：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ClassName</span>(<span class="title class_ inherited__">bases_classes</span>):    </span><br><span class="line">    <span class="string">&#x27;类文档字符串&#x27;</span></span><br><span class="line">    class_suite     <span class="comment"># 类体</span></span><br></pre></td></tr></table></figure>
+                
 
-<p><code>class</code>后面接着是类名<code>ClassName</code>，类名的开头通常是<strong>大写</strong>。类名后面的<code>(bases_classes)</code>表示这个类是由哪个类继承来的，如果没有合适的继承类，就使用<code>object</code>类，<code>object</code>类是所有类都会继承的基类。类文档字符串是对类所进行的说明，可以通过<code>ClassName.__doc__</code>查看。类体由类成员、方法、数据属性组成。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Book</span>(<span class="title class_ inherited__">object</span>):    </span><br><span class="line">	<span class="string">&#x27;书籍类&#x27;</span>    </span><br><span class="line">    bookList = [<span class="string">&#x27;python&#x27;</span>,<span class="string">&#x27;java&#x27;</span>,<span class="string">&#x27;c++&#x27;</span>,<span class="string">&#x27;ruby&#x27;</span>]    </span><br><span class="line">    <span class="keyword">for</span> book <span class="keyword">in</span> bookList:        </span><br><span class="line">        <span class="built_in">print</span>(book)</span><br></pre></td></tr></table></figure>
+                <h3 class="home-article-title">
+                    <a href="/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+                        python类的基本语法
+                    </a>
+                </h3>
 
-<h5 id="类的定义"><a href="#类的定义" class="headerlink" title="类的定义"></a>类的定义</h5><p>在 Python 中，类的定义与声明是同时进行的，在用<code>class</code>关键字声明一个类之后，此类就被定义了。同时，类中的各种方法在用<code>def</code>关键字声明后也被定义。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Book</span>(<span class="title class_ inherited__">object</span>):    </span><br><span class="line">    <span class="string">&#x27;书籍类&#x27;</span>    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_init_</span>(<span class="params">self,name,author,data,version</span>):        </span><br><span class="line">        self.name = name        </span><br><span class="line">        self.author = author        </span><br><span class="line">        self.data = data        </span><br><span class="line">        self.version = version    </span><br><span class="line">        </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">bookName,price</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s的销售价格为%d&quot;</span> %(bookName,price))</span><br></pre></td></tr></table></figure>
+                <div class="home-article-content keep-markdown-body">
+                    
+                        第1关：类的声明与定义任务描述Python 是一门面向对象的语言。面向对象编程 - Object Oriented Programming（简称 OOP）是一种编程思想，在面向对象编程中，把对象作为程序的基本单元，把程序视为一系列对象的集合。一个对象...
+                    
+                </div>
 
-<p>如果您想了解更多类的相关知识，请参考：<code>[美] Katie Cunningham 著《 Python 入门经典》</code>第三章。</p>
-<h4 id="编程要求"><a href="#编程要求" class="headerlink" title="编程要求"></a>编程要求</h4><p>本关的编程任务是补全<code>Book.py</code>文件中的代码，具体要求如下:</p>
-<ul>
-<li>在类头部填入定义<code>Book</code>类的代码。</li>
-</ul>
-<p>本关涉及的代码文件<code>Book.py</code>的代码框架如下:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 请在下面填入定义Book类的代码</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########    </span></span><br><span class="line">	<span class="string">&#x27;书籍类&#x27;</span>    </span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,name,author,data,version</span>):        </span><br><span class="line">	self.name = name        </span><br><span class="line">    self.author = author        </span><br><span class="line">    self.data = data        </span><br><span class="line">    self.version = version    </span><br><span class="line">    </span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">self,bookName,price</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s的销售价格为%d&quot;</span> %(bookName,price))</span><br></pre></td></tr></table></figure>
-
-<h4 id="测试说明"><a href="#测试说明" class="headerlink" title="测试说明"></a>测试说明</h4><p>本文的测试文件是<code>Booktest.py</code>，具体测试过程如下：</p>
-<ol>
-<li>平台自动编译生成<code>Booktest.exe</code>；</li>
-<li>平台运行<code>Booktest.exe</code>，并以标准输入方式提供测试输入；</li>
-<li>平台获取<code>Booktest.exe</code>输出，并将其输出与预期输出对比。如果一致则测试通过，否则测试失败。</li>
-</ol>
-<p>以下是平台对<code>src/step1/Booktest.py</code>的样例测试集：</p>
-<p>预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">java</span><br><span class="line">56</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java的销售价格为56</span><br></pre></td></tr></table></figure>
-
-<p>预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python</span><br><span class="line">45</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python的销售价格为45</span><br></pre></td></tr></table></figure>
-
-<h4 id="参考答案"><a href="#参考答案" class="headerlink" title="参考答案"></a>参考答案</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 请在下面填入定义Book类的代码</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Book</span>(<span class="title class_ inherited__">object</span>):</span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">    <span class="string">&#x27;书籍类&#x27;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,name,author,data,version</span>):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.author = author</span><br><span class="line">        self.data = data</span><br><span class="line">        self.version = version</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">self,bookName,price</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s的销售价格为%d&quot;</span> %(bookName,price))</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="第2关：类的属性与实例化"><a href="#第2关：类的属性与实例化" class="headerlink" title="第2关：类的属性与实例化"></a>第2关：类的属性与实例化</h3><h4 id="任务描述-1"><a href="#任务描述-1" class="headerlink" title="任务描述"></a>任务描述</h4><p>属性就是对类和对象特征的描述，外部以属性来区分不同的类，类具有数据属性和方法。而由类创建出来的实例-对象，具有它所属的类的数据属性和方法。 </p>
-<p>例如，书本是一个类，它具有作者、书名、出版社等数据属性，它还具有销售这一个方法。《 Python 核心编程》就是书本类的一个对象，它也具有作者、书名、出版社等数据属性和销售这一个方法。本关的任务是让学习者掌握类的属性与实例化。</p>
-<h4 id="相关知识-1"><a href="#相关知识-1" class="headerlink" title="相关知识"></a>相关知识</h4><h5 id="类的数据属性"><a href="#类的数据属性" class="headerlink" title="类的数据属性"></a>类的数据属性</h5><p>类的数据属性只与类绑定，不属于任何实例。在类创建后，属性也被创建，类的数据属性也可以称为静态变量，它通常用来跟踪与类相关的值。类的数据属性使用的并不多，一般都是用实例数据属性。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">DataProperty</span>:    </span><br><span class="line">	theData = <span class="number">10</span></span><br></pre></td></tr></table></figure>
-
-<p>在上面的例子中，<code>theData</code>就是类的数据属性。 </p>
-<p>类中还有很多特殊属性，具体如下:</p>
-<ul>
-<li><code>ClassName.__name__</code>：类<code>ClassName</code>的名字；</li>
-<li><code>ClassName.__doc__</code>：类<code>ClassName</code>的文档字符串；</li>
-<li><code>ClassName.__bases__</code>：类<code>ClassName</code>的所有父类构成的元组；</li>
-<li><code>ClassName.__dict__</code>：类<code>ClassName</code>的属性；</li>
-<li><code>ClassName.__module__</code>：类<code>ClassName</code>定义所在的模块；</li>
-<li><code>Instance.__class__</code>：实例<code>Instance</code>所对应的类。</li>
-</ul>
-<h5 id="类的方法"><a href="#类的方法" class="headerlink" title="类的方法"></a>类的方法</h5><p>类中的方法也称为函数。Python中用关键字<code>def</code>定义一个方法，后面接方法名，最后接参数。例如:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span>  <span class="title class_">MethodExample</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">theMethod</span>(<span class="params">self</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;这是方法实例&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>类中的方法一定要通过实例的句点方法去调用。例如:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span>  <span class="title class_">MethodExample</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">theMethod</span>(<span class="params">self</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;这是方法实例&quot;</span>）</span><br><span class="line"></span><br><span class="line">me = MethodExample()     </span><br><span class="line">me.theMethod()</span><br></pre></td></tr></table></figure>
-
-<h5 id="类的实例化"><a href="#类的实例化" class="headerlink" title="类的实例化"></a>类的实例化</h5><p>Python 使用函数操作符来创建实例对象。例如:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span>  <span class="title class_">MethodExample</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">theMethod</span>(<span class="params">self</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;创建类的实例&quot;</span>)</span><br><span class="line">me = MethodExample()</span><br></pre></td></tr></table></figure>
-
-<p>在实例化一个对象后，Python 会检查是否实现了<code>__init__()</code>方法。如果没有实现<code>__init__()</code>方法，则不会做其它的操作，直接返回对象，实例化过程完毕。而<code>__init__()</code>方法是用来给类本身初始化的，支持带参数的初始化。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Book</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,bookname,price,author</span>):        </span><br><span class="line">        self.bookname = bookname        </span><br><span class="line">        self.price = price        </span><br><span class="line">        self.author = author    </span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">self</span>):        </span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;%s书本的价格为%d&quot;</span> %(self.bookname,<span class="built_in">int</span>(self.price)))</span><br><span class="line">            </span><br><span class="line">            </span><br><span class="line">book = Book(<span class="string">&quot;python&quot;</span>,<span class="string">&quot;45&quot;</span>,<span class="string">&quot;aas&quot;</span>)</span><br><span class="line">book.sell()</span><br></pre></td></tr></table></figure>
-
-<p>在上面的例子中，<code>__init__()</code>是解释器在创建一个实例后调用的第一个方法。 </p>
-<p>如果您想了解更多类的相关知识，请参考：<code>[美] Wesley J.Chun 著《 Python 核心编程》</code>第十三章。</p>
-<h4 id="编程要求-1"><a href="#编程要求-1" class="headerlink" title="编程要求"></a>编程要求</h4><p>本关的编程任务是补全<code>People.py</code>文件中的声明变量和实例化部分，具体要求如下:</p>
-<ul>
-<li>填入声明两个变量名分别为<code>name</code>和<code>country</code>的字符串变量的代码；</li>
-<li>填入对类<code>People</code>进行实例化的代码，实例对象为<code>p</code>。</li>
-</ul>
-<p>本关涉及的代码文件<code>People.py</code>的代码框架如下:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">People</span>:</span><br><span class="line"><span class="comment"># 请在下面填入声明两个变量名分别为name和country的字符串变量的代码   </span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########    </span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">introduce</span>(<span class="params">self,name,country</span>):        </span><br><span class="line">    self.name = name        </span><br><span class="line">    self.country = country        </span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;%s来自%s&quot;</span> %(name,country))</span><br><span class="line"></span><br><span class="line">name = <span class="built_in">input</span>()</span><br><span class="line">country = <span class="built_in">input</span>()</span><br><span class="line"><span class="comment"># 请在下面填入对类People进行实例化的代码</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">p.introduce(name,country)</span><br></pre></td></tr></table></figure>
-
-<h4 id="测试说明-1"><a href="#测试说明-1" class="headerlink" title="测试说明"></a>测试说明</h4><p>本关要求完成声明变量与对类进行实例化，根据运行结果判断正误，所以无测试文件。以下是平台对<code>src/step2/People.py</code>的样例测试集： 预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">jim</span><br><span class="line">中国</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jim来自中国</span><br></pre></td></tr></table></figure>
-
-<p>预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">jane</span><br><span class="line">美国</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jane来自美国</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>开始你的任务吧，祝你成功！</p>
-<h4 id="参考答案-1"><a href="#参考答案-1" class="headerlink" title="参考答案"></a>参考答案</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">People</span>:</span><br><span class="line">    <span class="comment"># 请在下面填入声明两个变量名分别为name和country的字符串变量的代码</span></span><br><span class="line">    <span class="comment">########## Begin ##########</span></span><br><span class="line">    name = <span class="string">&#x27;name&#x27;</span></span><br><span class="line">    country = <span class="string">&#x27;country&#x27;</span></span><br><span class="line">    <span class="comment">########## End ##########</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">introduce</span>(<span class="params">self,name,country</span>):</span><br><span class="line">        self.name=name</span><br><span class="line">        self.country=country</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s来自%s&quot;</span> %(name,country))</span><br><span class="line">name = <span class="built_in">input</span>()</span><br><span class="line">country = <span class="built_in">input</span>()</span><br><span class="line"><span class="comment"># 请在下面填入对类People进行实例化的代码，对象为p</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line">p = People()</span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">p.introduce(name,country)</span><br></pre></td></tr></table></figure>
-
-<h3 id="第3关：绑定与方法调用"><a href="#第3关：绑定与方法调用" class="headerlink" title="第3关：绑定与方法调用"></a>第3关：绑定与方法调用</h3><h4 id="任务描述-2"><a href="#任务描述-2" class="headerlink" title="任务描述"></a>任务描述</h4><p>在 Python 中，如果用实例去调用方法，这种限制就被称为 Python 中的绑定（binging）。没有创建实例时，方法就是未绑定的。本关的任务就是让学习者理解什么是绑定，并学会如何调用方法。</p>
-<h4 id="相关知识-2"><a href="#相关知识-2" class="headerlink" title="相关知识"></a>相关知识</h4><h5 id="调用绑定方法"><a href="#调用绑定方法" class="headerlink" title="调用绑定方法"></a>调用绑定方法</h5><p>在定义方法时，<code>self</code>总是作为第一个参数传递的。<code>self</code>代表实例本身，<code>self.变量</code>代表调用此实例的变量，<code>self.方法</code>代表调用实例的方法。因为声明方法时已经传入<code>self</code>，所以在调用时<code>self</code>就不用明确传入了，此时实例是隐含的。调用绑定方法的代码如下:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">bindExample</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">bindMethod</span>(<span class="params">self</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;绑定方法调用实例&quot;</span>)</span><br><span class="line">        </span><br><span class="line">be = bindExample()</span><br><span class="line">be.bindMethod()</span><br></pre></td></tr></table></figure>
-
-<h5 id="调用非绑定方法"><a href="#调用非绑定方法" class="headerlink" title="调用非绑定方法"></a>调用非绑定方法</h5><p>当调用非绑定方法的时候，因为没有创建实例，所以需要用类去调用方法。在调用的时候需要显式地传入一个实例参数。例如:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">bindExample</span>:    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">bindMethod</span>(<span class="params">self</span>):       </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;非绑定方法调用实例&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line">be = bindExample()</span><br><span class="line">bindExample.bindMethod(be)</span><br></pre></td></tr></table></figure>
-
-<p>如果您想了解更多绑定与方法调用的相关知识，请参考：<code>[美] Wesley J.Chun 著《 Python 核心编程》</code>第十三章。</p>
-<h4 id="编程要求-2"><a href="#编程要求-2" class="headerlink" title="编程要求"></a>编程要求</h4><p>本关的测试文件给出了一个类<code>fractionSum</code>，此类的作用是当输入一个数<code>n</code>，如果<code>n</code>为偶数，求<code>1/2+1/4+...+1/n</code>的和，如果输入<code>n</code>为奇数，求<code>1/1+1/3+...+1/n</code>的和。 </p>
-<p>在<code>fractionSum</code>中，定义了方法<code>peven(self,n)</code>用来求当<code>n</code>为偶数时的结果，定义了<code>podd(self,n)</code>用来求当<code>n</code>为奇数时的结果，定义了<code>dcall(self,fp,n)</code>方法来调用<code>peven</code>与<code>podd</code>两个方法，<code>fp</code>为方法名，最后返回计算结果。 </p>
-<p>本关的编程任务是补全<code>fractionSum.py</code>文件中的创建实例与调用方法部分，具体要求如下：</p>
-<ul>
-<li>填入创建<code>fractionSum</code>的实例<code>fs</code>的代码；</li>
-<li>填入调用<code>fractionSumtest</code>类中<code>dcall</code>方法的代码，计算当<code>n</code>为偶数时计算的和；</li>
-<li>填入调用<code>fractionSumtest</code>类中<code>dcall</code>方法的代码，计算当<code>n</code>为奇数时计算的和。</li>
-</ul>
-<h4 id="测试说明-2"><a href="#测试说明-2" class="headerlink" title="测试说明"></a>测试说明</h4><p>本关涉及的代码文件<code>fractonSum.py</code>的代码框架如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> fractionSumtest</span><br><span class="line"><span class="comment"># 请在下面填入创建fractionSum的实例fs的代码</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="keyword">if</span> n % <span class="number">2</span> == <span class="number">0</span>:    </span><br><span class="line"><span class="comment"># 请在下面填入调用fractionSumtest类中dcall方法的代码，计算当n为偶数时计算的和 ########## Begin ##########  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line"><span class="keyword">else</span>:    </span><br><span class="line"><span class="comment"># 请在下面填入调用fractionSumtest类中dcall方法的代码，计算当n为奇数时计算的和 </span></span><br><span class="line"><span class="comment">########## Begin ##########  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
-
-<h4 id="测试说明-3"><a href="#测试说明-3" class="headerlink" title="测试说明"></a>测试说明</h4><p>本文的测试文件是<code>fractionSumtest.py</code>，具体测试过程如下：</p>
-<ol>
-<li>平台自动编译生成<code>fractionSumtest.exe</code>；</li>
-<li>平台运行<code>fractionSumtest.exe</code>，并以标准输入方式提供测试输入；</li>
-<li>平台获取<code>fractionSumtest.exe</code>输出，并将其输出与预期输出对比。如果一致则测试通过，否则测试失败。</li>
-</ol>
-<p>以下是平台对<code>src/step3/fractionSumtest.py</code>的样例测试集： 预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.5333333333333332</span><br></pre></td></tr></table></figure>
-
-<p>预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">8</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.0416666666666665</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>开始你的任务吧，祝你成功！</p>
-<h4 id="参考代码"><a href="#参考代码" class="headerlink" title="参考代码"></a>参考代码</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> fractionSumtest</span><br><span class="line"><span class="comment"># 请在下面填入创建fractionSum的实例fs的代码</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">fractionSum</span>(<span class="title class_ inherited__">object</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.<span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">peven</span>(<span class="params">self, n</span>):</span><br><span class="line">        <span class="keyword">while</span>(n != <span class="number">0</span>):</span><br><span class="line">            self.<span class="built_in">sum</span> += <span class="number">1</span> / n</span><br><span class="line">            n -= <span class="number">2</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">podd</span>(<span class="params">self, n</span>):</span><br><span class="line">        <span class="keyword">while</span>(n &gt;= <span class="number">1</span>):</span><br><span class="line">            self.<span class="built_in">sum</span> += <span class="number">1</span> / n</span><br><span class="line">            n -= <span class="number">2</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">dcall</span>(<span class="params">self, fp, n</span>):</span><br><span class="line">        <span class="keyword">if</span>(fp == <span class="string">&quot;peven&quot;</span>):</span><br><span class="line">            self.peven(n)</span><br><span class="line">            <span class="keyword">return</span> self.<span class="built_in">sum</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            self.podd(n)</span><br><span class="line">            <span class="keyword">return</span> self.<span class="built_in">sum</span></span><br><span class="line">fs = fractionSum()</span><br><span class="line"><span class="comment">########## End ##########</span></span><br><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"><span class="keyword">if</span> n % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">    <span class="comment"># 请在下面填入调用fractionSumtest类中dcall方法的代码，计算当n为偶数时计算的和</span></span><br><span class="line">    <span class="comment">########## Begin ##########</span></span><br><span class="line">    <span class="built_in">sum</span> = fs.dcall(<span class="string">&quot;peven&quot;</span>, n)</span><br><span class="line">    <span class="comment">########## End ##########</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="comment"># 请在下面填入调用fractionSumtest类中dcall方法的代码，计算当n为奇数时计算的和</span></span><br><span class="line">    <span class="comment">########## Begin ##########</span></span><br><span class="line">    <span class="built_in">sum</span> = fs.dcall(<span class="string">&quot;podd&quot;</span>, n)</span><br><span class="line">    <span class="comment">########## End ##########</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">sum</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="第4关：静态方法与类方法"><a href="#第4关：静态方法与类方法" class="headerlink" title="第4关：静态方法与类方法"></a>第4关：静态方法与类方法</h3><h4 id="任务描述-3"><a href="#任务描述-3" class="headerlink" title="任务描述"></a>任务描述</h4><p>Python 中的实例方法由<strong>实例</strong>调用，且隐含传入的<code>self</code>参数为实例本身。而静态方法在类中定义，无需参数，直接由类调用。类方法由实例调用，传入的参数为类本身，通常用<code>cls</code>作为参数名字。本关的任务是让学习者掌握静态方法与类方法的声明与使用。</p>
-<h4 id="相关知识-3"><a href="#相关知识-3" class="headerlink" title="相关知识"></a>相关知识</h4><h5 id="静态方法"><a href="#静态方法" class="headerlink" title="静态方法"></a>静态方法</h5><p>在声明静态方法的时候，使用函数修饰符<code>@staticmethod</code>。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">StaticMethood</span>:    </span><br><span class="line"><span class="meta">    @staticmethod    </span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">statictest</span>():</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;这是静态函数&quot;</span>)</span><br><span class="line">StaticMethood.statictest()</span><br></pre></td></tr></table></figure>
-
-<p>运行结果为:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是静态函数</span><br></pre></td></tr></table></figure>
-
-<h5 id="类方法"><a href="#类方法" class="headerlink" title="类方法"></a>类方法</h5><p>在声明类方法的时候，使用函数修饰符<code>@classmethod</code>。例如：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ClassMethod</span>:    </span><br><span class="line"><span class="meta">	@classmethod    </span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">classtest</span>(<span class="params">cls</span>):        </span><br><span class="line">        <span class="built_in">print</span>(cls)        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;这是类方法&quot;</span>)</span><br><span class="line">        </span><br><span class="line">cm = ClassMethod()</span><br><span class="line">cm.classtest()</span><br></pre></td></tr></table></figure>
-
-<p>运行结果为:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;class &#x27;__main__.ClassMethod&#x27;&gt;</span><br><span class="line">这是类方法</span><br></pre></td></tr></table></figure>
-
-<p>如果您想了解更多静态方法和类方法的相关知识，请参考：<code>[美] Wesley J.Chun 著《 Python 核心编程》</code>第十三章。</p>
-<h4 id="编程要求-3"><a href="#编程要求-3" class="headerlink" title="编程要求"></a>编程要求</h4><p>本关的编程任务是补全<code>BookSell.py</code>文件中的函数修饰符部分，将函数声明为相应的类型，具体要求如下:</p>
-<ul>
-<li>填入函数修饰符将<code>printStatic()</code>方法声明为静态方法；</li>
-<li>填入函数修饰符将<code>printVersion(cls)</code>方法声明为类方法。</li>
-</ul>
-<p>本关涉及的代码文件<code>BookSell.py</code>的代码框架如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">BookSell</span>:    </span><br><span class="line">    static_var = <span class="number">100</span>    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">self,name,author,version,price</span>):        </span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s的销售价格为%d&quot;</span> %(name,<span class="built_in">int</span>(price)))    </span><br><span class="line"><span class="comment"># 请在下面填入函数修饰符将printStatic()方法声明为静态方法</span></span><br><span class="line"><span class="comment">########## Begin ##########</span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########    </span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printStatic</span>():        </span><br><span class="line">    <span class="built_in">print</span>(BookSell.static_var)    </span><br><span class="line"><span class="comment"># 请在下面填入函数修饰符将printVersion(cls)方法声明为类方法   </span></span><br><span class="line"><span class="comment">########## Begin ##########  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">########## End ##########    </span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printVersion</span>(<span class="params">cls</span>):        </span><br><span class="line">    <span class="built_in">print</span>(cls)</span><br></pre></td></tr></table></figure>
-
-<h4 id="测试说明-4"><a href="#测试说明-4" class="headerlink" title="测试说明"></a>测试说明</h4><p>本文的测试文件是<code>BookSelltest.py</code>，具体测试过程如下：</p>
-<ol>
-<li>平台自动编译生成<code>BookSelltest.exe</code>；</li>
-<li>平台运行<code>BookSelltest.exe</code>，并以标准输入方式提供测试输入；</li>
-<li>平台获取<code>BookSelltest.exe</code>输出，并将其输出与预期输出对比。如果一致则测试通过，否则测试失败。</li>
-</ol>
-<p>以下是平台对<code>src/step4/BookSelltest.py</code>的样例测试集： 预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javaJoshua Bloch15</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java的销售价格为56100&lt;class &#x27;BookSell.BookSell&#x27;&gt;</span><br></pre></td></tr></table></figure>
-
-<p>预期输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pythonJulien Danjou178</span><br></pre></td></tr></table></figure>
-
-<p>预期输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python的销售价格为78100&lt;class&#x27;BookSell.BookSell&#x27;&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>开始你的任务吧，祝你成功！</p>
-<h4 id="参考答案-2"><a href="#参考答案-2" class="headerlink" title="参考答案"></a>参考答案</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">BookSell</span>:</span><br><span class="line">    static_var = <span class="number">100</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">sell</span>(<span class="params">self,name,author,version,price</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s的销售价格为%d&quot;</span> %(name,<span class="built_in">int</span>(price)))</span><br><span class="line">    <span class="comment"># 请在下面填入函数修饰符将printStatic()方法声明为静态方法</span></span><br><span class="line">    <span class="comment">########## Begin ##########</span></span><br><span class="line"><span class="meta">    @staticmethod</span></span><br><span class="line">    <span class="comment">########## End ##########</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">printStatic</span>():</span><br><span class="line">        <span class="built_in">print</span>(BookSell.static_var)</span><br><span class="line">    <span class="comment"># 请在下面填入函数修饰符将printVersion(cls)方法声明为类方法</span></span><br><span class="line">    <span class="comment">########## Begin ##########</span></span><br><span class="line"><span class="meta">    @classmethod</span></span><br><span class="line">    <span class="comment">########## End ##########</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">printVersion</span>(<span class="params">cls</span>):</span><br><span class="line">        <span class="built_in">print</span>(cls)</span><br></pre></td></tr></table></figure>
-
-
-      
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Tue Jul 25 2023 21:29:27 GMT+0800">
+                2023-07-25
+            </span>
+        </span>
+        
+        
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" data-id="clkic42cb0000w8vf6xjw9hmw" data-title="python类的基本语法" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/" rel="tag">python</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
+    <a class="read-more" href="/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
-
-
-  
-    <article id="post-Jyamlam-s-Blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/07/25/Jyamlam-s-Blog/" class="article-date">
-  <time class="dt-published" datetime="2023-07-25T13:03:20.000Z" itemprop="datePublished">2023-07-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+            </li>
         
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/07/25/Jyamlam-s-Blog/">Jyamlam&#39;s Blog</a>
-    </h1>
-  
+            <li class="home-article-item">
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/07/25/Jyamlam-s-Blog/">
+                        Jyamlam&#39;s Blog
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Tue Jul 25 2023 21:03:20 GMT+0800">
+                2023-07-25
+            </span>
+        </span>
         
-      
+        
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/07/25/Jyamlam-s-Blog/" data-id="clkibquwh000004vf5a6r3u4y" data-title="Jyamlam&#39;s Blog" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
+    <a class="read-more" href="/2023/07/25/Jyamlam-s-Blog/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/07/25/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-07-25T12:47:28.079Z" itemprop="datePublished">2023-07-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+            </li>
         
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/07/25/hello-world/">Hello World</a>
-    </h1>
-  
+            <li class="home-article-item">
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+                <h3 class="home-article-title">
+                    <a href="/2023/07/25/hello-world/">
+                        Hello World
+                    </a>
+                </h3>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+                <div class="home-article-content keep-markdown-body">
+                    
+                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
+                    
+                </div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Tue Jul 25 2023 20:47:28 GMT+0800">
+                2023-07-25
+            </span>
+        </span>
+        
+        
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/07/25/hello-world/" data-id="clkibquwm000104vfcihj40y6" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
+    <a class="read-more" href="/2023/07/25/hello-world/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
-
-  
-
-
-</section>
+            </li>
         
-          <aside id="sidebar">
-  
+    </ul>
+
+    <div class="home-paginator">
+        <div class="paginator">
     
 
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a></li></ul>
+</div>
+
     </div>
-  </div>
+</div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/python/" style="font-size: 10px;">python</a>
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2020</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">Keep Team</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
     </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/07/25/python%E7%B1%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">python类的基本语法</a>
-          </li>
-        
-          <li>
-            <a href="/2023/07/25/Jyamlam-s-Blog/">Jyamlam&#39;s Blog</a>
-          </li>
-        
-          <li>
-            <a href="/2023/07/25/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
 </footer>
 
+        </div>
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+
     
 
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
 
-<script src="/js/jquery-3.6.4.min.js"></script>
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+
+</main>
 
 
 
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
 
 
 
 
-<script src="/js/script.js"></script>
 
 
 
 
 
-  </div>
+
+<div class="post-scripts">
+    
+</div>
+
+
+
 </body>
 </html>
